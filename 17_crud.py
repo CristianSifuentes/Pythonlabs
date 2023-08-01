@@ -72,3 +72,44 @@ print(my_list) # [4, 8] Delete 12 because the current list is [4, 8, 12]
 # remove item without passing index number
 my_list.pop()
 print(my_list) # [4, 8] Delete 8 because the current list is [4, 8]
+
+# Remove the range of items
+my_list = list([2, 4, 6, 8, 10, 12])
+# remove range of items
+# remove item from index 2 to 5
+del my_list[2:5]
+print(my_list) # [2, 4, 12] because start in '6' and finish in '10' deleting 5 elements 
+
+# remove all items starting from index 3
+my_list = list([2, 4, 6, 8, 10, 12])
+del my_list[3:]
+print(my_list) # [2, 4, 6]
+
+my_list.reverse()
+print(my_list)  # [2, 4, 6]
+
+# sort in numbers
+numbers_a = [1, 3, 2, 6, 7, 4, 5]
+numbers_a.sort()
+print(numbers_a) # [1, 2, 3, 4, 5, 6, 7]
+
+# sort in string
+strings = ['a', 'b', 'e', 'c', 'd']
+strings.sort()
+print(strings) # ['a', 'b', 'c', 'd', 'e'] validate how it´s work usings "Strings"
+
+# in heterogeneous list dont work sort
+
+
+''''
+append(): Añade un ítem al final de la lista.
+clear(): Vacía todos los ítems de una lista.
+extend(): Une una lista a otra.
+count(): Cuenta el número de veces que aparece un ítem.
+index(): Devuelve el índice en el que aparece un ítem (error si no aparece).
+insert(): Agrega un ítem a la lista en un índice específico.
+pop(): Extrae un ítem de la lista y lo borra.
+remove(): Borra el primer ítem de la lista cuyo valor concuerde con el que indicamos.
+reverse(): Le da la vuelta a la lista actual.
+sort(): Ordena automáticamente los ítems de una lista por su valor de menor a mayor.
+'''
