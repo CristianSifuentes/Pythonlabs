@@ -1,4 +1,5 @@
 text = 'Ella sabe programar en Python'
+print(text.replace('Ella', 'El'))
 print('JavaScript' in text) # False
 print('Python' in text) # True
 if 'JS' in text:
@@ -11,7 +12,7 @@ print(size)
 
 print(text)
 print(text.upper())
-print(text.lower())
+print("lower" , text.lower())
 print(text.count('P'))
 print(text.swapcase())
 print(text.startswith('Ella'))

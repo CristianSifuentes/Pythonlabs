@@ -7,6 +7,7 @@ print(2 * 10)
 print(2 / 10)
 print(100 // 10) # redondeo
 print(2 ** 5)  # doble potencia
+print(4 != 10)
 
 """ Variables  """
 counter = 100          # An integer assignment

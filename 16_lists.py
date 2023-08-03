@@ -1,7 +1,7 @@
 
 # Using list constructor
-my_list1 = list((1, 2, 3))
-print("list using constructor => ", my_list1) # Output [1, 2, 3]
+my_list1 = list((2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41))
+print("list using constructor => ", my_list1[3:10:2]) # Output [1, 2, 3]
 
 # create list using square brackets []
 my_list2 = [1, 2, 3]
