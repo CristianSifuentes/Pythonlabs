@@ -25,5 +25,11 @@ print(person.keys()) # dict_keys(['name', 'lastName', 'twitter'])
 
 print(person.values()) # dict_values(['Felipe', 'Molina', '@nicobytes'])
 
+# person["twitter"] = "@nicobytes"
+# person["name"] = 'Felipe'
+# person.pop('age')
+# print(list(person.keys())) # en platzi marca error sin colocar la list
+# print(list(person.values()))  en platzi marca error sin colocar la list
+
 
 
