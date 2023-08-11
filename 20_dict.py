@@ -48,3 +48,16 @@ print(person_details.keys())
 # dict_keys(['country', 'telephone', 'state', 'zip'])
 
 print(person_details.values()) # dict_values(['USA', 1178, 'Texas', None])
+
+# Removing items from the dictionary
+
+'''
+pop(key[,d])	Return and removes the item with the key and return its value. If the key is not found, it raises KeyError.
+popitem()	Return and removes the last inserted item from the dictionary. If the dictionary is empty, it raises KeyError.
+del key	The del keyword will delete the item with the key that is passed
+clear()	Removes all items from the dictionary. Empty the dictionary
+del dict_name	Delete the entire dictionary
+
+'''
+
+person = {'name': 'Jessa', 'country': 'USA', 'telephone': 1178, 'weight': 50, 'height': 6}
